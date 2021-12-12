@@ -91,13 +91,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         manageEnterpriseAdmin = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         manageEnterpriseAdminLabel = new javax.swing.JLabel();
-        noOfSceneGraph = new javax.swing.JPanel();
-        jLabel5 = new javax.swing.JLabel();
-        noOfGraphSceneLabel = new javax.swing.JLabel();
         lblSelectedNode1 = new javax.swing.JLabel();
-        viewGraphScene = new javax.swing.JPanel();
-        jLabel3 = new javax.swing.JLabel();
-        viewGraphSceneDetails = new javax.swing.JLabel();
         jSeparator2 = new javax.swing.JSeparator();
         rightSystemAdminPanel = new javax.swing.JPanel();
 
@@ -233,76 +227,11 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         jPanel3.add(manageEnterpriseAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 88, 280, -1));
 
-        noOfSceneGraph.setBackground(new java.awt.Color(102, 153, 0));
-        noOfSceneGraph.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                noOfSceneGraphMousePressed(evt);
-            }
-        });
-
-        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/stats.png"))); // NOI18N
-
-        noOfGraphSceneLabel.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        noOfGraphSceneLabel.setText("No Of Graph Scene");
-        noOfGraphSceneLabel.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                noOfGraphSceneLabelMousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout noOfSceneGraphLayout = new javax.swing.GroupLayout(noOfSceneGraph);
-        noOfSceneGraph.setLayout(noOfSceneGraphLayout);
-        noOfSceneGraphLayout.setHorizontalGroup(
-            noOfSceneGraphLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, noOfSceneGraphLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(noOfGraphSceneLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE)
-                .addGap(0, 0, 0))
-        );
-        noOfSceneGraphLayout.setVerticalGroup(
-            noOfSceneGraphLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(noOfSceneGraphLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
-            .addGroup(noOfSceneGraphLayout.createSequentialGroup()
-                .addComponent(noOfGraphSceneLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
-        );
-
-        jPanel3.add(noOfSceneGraph, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 280, 40));
-
-        lblSelectedNode1.setBackground(new java.awt.Color(51, 255, 204));
+        lblSelectedNode1.setBackground(new java.awt.Color(0, 0, 0));
         lblSelectedNode1.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jPanel3.add(lblSelectedNode1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, 230, 30));
 
-        viewGraphScene.setBackground(new java.awt.Color(102, 153, 0));
-        viewGraphScene.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                viewGraphSceneMousePressed(evt);
-            }
-        });
-        viewGraphScene.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/view.png"))); // NOI18N
-        viewGraphScene.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, 37, 31));
-
-        viewGraphSceneDetails.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        viewGraphSceneDetails.setText("View Graph Scene Details");
-        viewGraphSceneDetails.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                viewGraphSceneDetailsMousePressed(evt);
-            }
-        });
-        viewGraphScene.add(viewGraphSceneDetails, new org.netbeans.lib.awtextra.AbsoluteConstraints(49, 6, 231, 31));
-
-        jPanel3.add(viewGraphScene, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 170, 280, 40));
-
-        jSeparator2.setBackground(new java.awt.Color(51, 255, 204));
+        jSeparator2.setBackground(new java.awt.Color(51, 51, 54));
         jSeparator2.setForeground(new java.awt.Color(0, 0, 0));
         jPanel3.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 240, 280, -1));
 
@@ -350,32 +279,10 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         manageEnterpriseAdmin();
     }//GEN-LAST:event_manageEnterpriseAdminMousePressed
 
-    private void noOfGraphSceneLabelMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_noOfGraphSceneLabelMousePressed
-        // TODO add your handling code here:
-       
-    }//GEN-LAST:event_noOfGraphSceneLabelMousePressed
-
-    private void noOfSceneGraphMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_noOfSceneGraphMousePressed
-        // TODO add your handling code here:
-        
-    }//GEN-LAST:event_noOfSceneGraphMousePressed
-
-    private void viewGraphSceneDetailsMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_viewGraphSceneDetailsMousePressed
-        // TODO add your handling code here:
-        
-    }//GEN-LAST:event_viewGraphSceneDetailsMousePressed
-
-    private void viewGraphSceneMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_viewGraphSceneMousePressed
-        // TODO add your handling code here:
-        
-    }//GEN-LAST:event_viewGraphSceneMousePressed
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JSeparator jSeparator2;
@@ -386,11 +293,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel manageEnterpriseLabel;
     private javax.swing.JLabel manageNetwork;
     private javax.swing.JPanel manageNetworkPanel;
-    private javax.swing.JLabel noOfGraphSceneLabel;
-    private javax.swing.JPanel noOfSceneGraph;
     private javax.swing.JPanel rightSystemAdminPanel;
     private javax.swing.JPanel systemAdminPanel;
-    private javax.swing.JPanel viewGraphScene;
-    private javax.swing.JLabel viewGraphSceneDetails;
     // End of variables declaration//GEN-END:variables
 }

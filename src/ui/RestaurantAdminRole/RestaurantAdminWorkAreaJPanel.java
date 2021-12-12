@@ -152,8 +152,8 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
         lblRestaurantStatus.setText("approved/not approved");
         add(lblRestaurantStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 30, 190, -1));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/emergency512icon.png"))); // NOI18N
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 22, -1, -1));
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/manager128x.png"))); // NOI18N
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 22, 150, 200));
         add(txtFoodDishName, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 320, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
