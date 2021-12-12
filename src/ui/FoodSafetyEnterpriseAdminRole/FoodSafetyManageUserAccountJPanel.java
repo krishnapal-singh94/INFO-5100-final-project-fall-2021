@@ -215,7 +215,6 @@ public class FoodSafetyManageUserAccountJPanel extends javax.swing.JPanel {
         add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, 150));
 
         jLabel8.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/userEmergency512x.png"))); // NOI18N
         add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 120, 250, 470));
     }// </editor-fold>//GEN-END:initComponents
 

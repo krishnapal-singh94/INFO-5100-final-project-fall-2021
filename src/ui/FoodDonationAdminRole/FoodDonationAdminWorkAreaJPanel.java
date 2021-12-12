@@ -92,7 +92,7 @@ public class FoodDonationAdminWorkAreaJPanel extends javax.swing.JPanel {
         systemAdminPanel.setBackground(new java.awt.Color(215, 81, 81));
         systemAdminPanel.setPreferredSize(new java.awt.Dimension(1338, 840));
 
-        jPanel3.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel3.setBackground(new java.awt.Color(247, 247, 247));
         jPanel3.setMinimumSize(new java.awt.Dimension(280, 840));
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());

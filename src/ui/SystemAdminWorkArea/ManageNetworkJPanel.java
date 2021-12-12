@@ -75,7 +75,6 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 40, 586, -1));
 
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/opacitycitybig.png"))); // NOI18N
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 230, 670, 500));
 
         networkJTable.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
