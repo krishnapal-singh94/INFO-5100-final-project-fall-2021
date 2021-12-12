@@ -86,7 +86,7 @@ public class FoodSafetyEnterpriseAdminWorkArea extends javax.swing.JPanel {
         systemAdminPanel.setBackground(new java.awt.Color(215, 81, 81));
         systemAdminPanel.setPreferredSize(new java.awt.Dimension(1338, 840));
 
-        jPanel3.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel3.setBackground(new java.awt.Color(33, 33, 36));
         jPanel3.setMinimumSize(new java.awt.Dimension(280, 840));
         jPanel3.setPreferredSize(new java.awt.Dimension(280, 840));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -228,6 +228,7 @@ public class FoodSafetyEnterpriseAdminWorkArea extends javax.swing.JPanel {
 
         jLabel1.setBackground(new java.awt.Color(215, 81, 81));
         jLabel1.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Manage Food Safety Enterprise");
         jPanel3.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, -1));
 

@@ -108,8 +108,6 @@ public class PartyOrganizationAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/emergency512icon.png"))); // NOI18N
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 22, -1, -1));
-
-        txtFoodDishName.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/emergencyEmployee512xxx.png"))); // NOI18N
         add(txtFoodDishName, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 320, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N

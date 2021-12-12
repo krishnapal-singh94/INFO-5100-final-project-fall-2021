@@ -175,7 +175,7 @@ public class OrphanageAdminWorkAreaJPanel extends javax.swing.JPanel {
         jLabel9.setText("Email id");
         add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 420, -1, -1));
 
-        jPanel1.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel1.setBackground(new java.awt.Color(106, 137, 204));
         jPanel1.setMinimumSize(new java.awt.Dimension(1338, 1048));
         jPanel1.setPreferredSize(new java.awt.Dimension(1338, 1048));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());

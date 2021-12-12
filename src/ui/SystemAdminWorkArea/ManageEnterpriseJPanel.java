@@ -175,7 +175,6 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
         add(btnSubmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 340, 123, 30));
 
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/opaqueblurimage.png"))); // NOI18N
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 280, 670, 530));
     }// </editor-fold>//GEN-END:initComponents
 
