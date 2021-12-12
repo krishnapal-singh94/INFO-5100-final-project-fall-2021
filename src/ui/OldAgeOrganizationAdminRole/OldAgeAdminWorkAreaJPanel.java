@@ -46,6 +46,7 @@ public class OldAgeAdminWorkAreaJPanel extends javax.swing.JPanel {
         jLabel4 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         orgLocation1 = new javax.swing.JTextField();
+        imageLabel = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(106, 137, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -137,6 +138,10 @@ public class OldAgeAdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
         add(orgLocation1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 380, 230, -1));
+
+        imageLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/OldAGeFoodDonation.jpeg"))); // NOI18N
+        imageLabel.setText("jLabel1");
+        add(imageLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 280, 390, 290));
     }// </editor-fold>//GEN-END:initComponents
 
     private void addJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addJButtonActionPerformed
@@ -172,6 +177,7 @@ public class OldAgeAdminWorkAreaJPanel extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton addJButton;
+    private javax.swing.JLabel imageLabel;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
