@@ -159,8 +159,8 @@ public class FoodInspectorWorkAreaJPanel extends javax.swing.JPanel {
 
         jLabel4.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(25, 56, 82));
-        jLabel4.setText("MANAGE FOOD INSPECTOR WORK AREA");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 50, -1, -1));
+        jLabel4.setText("MANAGE FOOD INSPECTOR WORK AREA PANEL");
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 50, 440, -1));
 
         btnAssignTome.setBackground(new java.awt.Color(255, 255, 255));
         btnAssignTome.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
